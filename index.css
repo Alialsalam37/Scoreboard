@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    width: 575;
+height: 385;
+angle: 0 deg;
+opacity: 1;
+background: #1B244A;
+text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 149;
+    height: 36;
+    opacity: 1;
+    top: 68px;
+    left: 340px;
+}
+.score{
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+font-family: Cursed Timer ULiL;
+font-weight: 400;
+font-style: Regular;
+line-height: 126.67px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+button {
+    background: none;
+    color: white;
+}
