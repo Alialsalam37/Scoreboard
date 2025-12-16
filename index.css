@@ -1,19 +1,22 @@
 body {
     margin: 0;
     width: 575;
-height: 385;
-angle: 0 deg;
-opacity: 1;
-background: #1B244A;
-text-align: center;
+    height: 385;
+    angle: 0 deg;
+    opacity: 1;
+    background: #1B244A;
+    text-align: center;
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 .container {
     display: flex;
     justify-content: space-around;
 }
-h3{
+
+h3 {
     color: #EEEEEE;
     font-family: Verdana;
     font-weight: 700;
@@ -28,20 +31,23 @@ h3{
     top: 68px;
     left: 340px;
 }
-.score{
+
+.score {
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
     width: 120px;
     margin: 20px;
-font-family: Cursed Timer ULiL;
-font-weight: 400;
-font-style: Regular;
-line-height: 126.67px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: 'Orbitron', 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(249, 79, 109, 0.45);
 
 }
+
 button {
     background: none;
     color: white;
